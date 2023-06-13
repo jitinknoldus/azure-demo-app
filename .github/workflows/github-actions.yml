@@ -1,0 +1,5 @@
+name: github-actions
+jobs:
+  steps:
+    - name: Standard Checkout
+    - uses: actions/checkout@v2
