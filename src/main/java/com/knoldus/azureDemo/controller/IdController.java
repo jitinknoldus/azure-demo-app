@@ -7,17 +7,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IdController {
 
-    @GetMapping("/api/{id}")
-    public Integer displayId(@PathVariable Integer id){
-        return id;
-    }
+//    @GetMapping("/api/{id}")
+//    public Integer displayId(@PathVariable Integer id){
+//        return id;
+//    }
 
     @GetMapping("/api/{name}")
     public String displayName(@PathVariable String name){
         return name;
     }
-
-
 
 }
 
